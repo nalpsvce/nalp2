@@ -21,11 +21,10 @@
     </div>
     <div class="container" id="container">
         <div class="form-container sign-in-container">
-            <form action="#">
+            <form action="/user/login">
                 <h1>Sign in</h1><br>
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <a href="#">Forgot your password?</a>
+                <input type="email" placeholder="Email" name="email"/>
+                <input type="password" placeholder="Password" name="password"/>
                 <button>Sign In</button>
             </form>
         </div>
@@ -34,7 +33,7 @@
                 <div class="overlay-panel overlay-right">
                     <h1>New User?</h1>
                     <p>Register and start your journey with us</p>
-                    <a href="signup_user.html"><button class="ghost" id="signUp">Register</button></a>
+                    <a href="signup-user.ejs"><button class="ghost" id="signUp">Register</button></a>
                 </div>
             </div>
         </div>

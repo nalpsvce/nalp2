@@ -23,12 +23,11 @@
         <div class="form-container sign-in-container">
             <form action="#">
                 <h1>Register as user</h1><br>
-                <input type="text" placeholder="First Name" />
-                <input type="text" placeholder="Last Name" />
-                <input type="phone" placeholder="Phone" />
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <a href="#">Forgot your password?</a>
+                <input type="text" placeholder="First Name" name="firstName" />
+                <input type="text" placeholder="Last Name" name="lastName" />
+                <input type="phone" placeholder="Phone" name="phone"/>
+                <input type="email" placeholder="Email" name="email"/>
+                <input type="password" placeholder="Password" name="password"/>
                 <button>Register</button>
             </form>
         </div>
@@ -37,7 +36,7 @@
                 <div class="overlay-panel overlay-right">
                     <h1>Existing User?</h1>
                     <p style="margin-top: 0;">Sign-in for personalized experience</p>
-                    <a href="signin.html" style="margin-bottom: 20px; margin-top: -20px;"><button class="ghost"
+                    <a href="login-user.ejs" style="margin-bottom: 20px; margin-top: -20px;"><button class="ghost"
                             id="signIn">Sign
                             In</button></a>
                     <h1 style="margin-top: 20px;">Are you a vendor?</h1>
